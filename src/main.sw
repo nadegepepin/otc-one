@@ -47,7 +47,7 @@ fn main() -> bool {
 
     // Otherwise, evaluate the terms of the order:
     // The output which pays the receiver must be the first output
-    let output_index = 0;
+    let output_index = 10;
 
     // Revert if output is not an Output::Coin
     match output_type(output_index) {
